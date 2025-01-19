@@ -1,9 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom'
+import { MainLayout } from 'shared/ui/main-layout'
 
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <>1</>,
+    element: <MainLayout />,
     children: [
       {
         index: true,
